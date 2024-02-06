@@ -310,7 +310,7 @@ final user = User(name: "Camila", age: 18).obs;
 Lists are completely observable as are the objects within it. That way, if you add a value to a list, it will automatically rebuild the widgets that use it.
 
 You also don't need to use ".value" with lists, the amazing dart api allowed us to remove that.
-Unfortunaly primitive types like String and int cannot be extended, making the use of .value mandatory, but that won't be a problem if you work with gets and setters for these.
+Unfortunaly Data types like String and int cannot be extended, making the use of .value mandatory, but that won't be a problem if you work with gets and setters for these.
 
 ```dart
 // On the controller
